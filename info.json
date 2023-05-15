@@ -1,0 +1,12 @@
+{
+	"name": "Mining_Drones_Harder",
+	"version": "1.2.1",
+	"title": "Mining Drones Harder",
+	"author": "AivanF",
+	"dependencies": [
+		"base >= 1.1.0",
+		"Mining_Drones"
+	],
+	"description": "I love Mining Drones mod, but the original recipe looks too imbalanced: it requires nothing but raw iron! No need to place miners & belts almost for free, with even no electricity usage!\n\nThis mod fixes the balance by:\n1. Adding a technology needed to be researched before you can create mining drones and depot.\n2. Making the recipe harder yet customizable with startup settings: besides iron, gears and sticks, you can add steel, green/red/blue circuits, heat/electric engine, battery. Required technologies & science packs will be adjusted by your settings.\n\nSince now, creating mining drones feels like a desired reward! ^_^",
+	"factorio_version": "1.1"
+}
