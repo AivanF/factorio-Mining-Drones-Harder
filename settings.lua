@@ -62,4 +62,25 @@ data:extend{
         default_value = true,
         order = "b-f"
     },
+    {
+        type = "bool-setting",
+        name = "af-mining-drones-no-burner-drill",
+        setting_type = "startup",
+        default_value = false,
+        order = "c-a"
+    },
+    {
+        type = "bool-setting",
+        name = "af-mining-drones-no-electric-drill",
+        setting_type = "startup",
+        default_value = false,
+        order = "c-b"
+    },
+    {
+        type = "bool-setting",
+        name = "af-mining-drones-no-drill-prod",
+        setting_type = "startup",
+        default_value = false,
+        order = "c-c"
+    },
 }

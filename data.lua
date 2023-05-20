@@ -93,3 +93,35 @@ data:extend{technology}
 -- Link with existing tech researches
 data.raw.technology["mining-drone-mining-speed-1"].prerequisites = {"mining-drone"}
 data.raw.technology["mining-drone-productivity-1"].prerequisites = {"mining-drone"}
+
+-- Optionally disable vanilla mining drills
+function hideRecipe(recipe)
+    recipe.hidden = true
+    recipe.enabled = false
+    if recipe.normal then
+        recipe.normal.hidden = true
+        recipe.normal.enabled = false
+        recipe.expensive.hidden = true
+        recipe.expensive.enabled = false
+    end
+end
+
+if settings.startup["af-mining-drones-no-burner-drill"].value then
+    data.raw.item["burner-mining-drill"].flags = { "hidden" }
+    data.raw["mining-drill"]["burner-mining-drill"].flags = { "hidden" }
+    hideRecipe(data.raw.recipe["burner-mining-drill"])
+end
+
+if settings.startup["af-mining-drones-no-electric-drill"].value then
+    data.raw.item["electric-mining-drill"].flags = { "hidden" }
+    data.raw["mining-drill"]["electric-mining-drill"].flags = { "hidden" }
+    hideRecipe(data.raw.recipe["electric-mining-drill"])
+end
+
+if settings.startup["af-mining-drones-no-drill-prod"].value then
+    for key, tech in pairs(data.raw.technology) do
+        if key:find("mining-productivity", 1, true) == 1 then
+            tech.hidden = true
+        end
+    end
+end

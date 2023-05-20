@@ -1,15 +1,28 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.1.0
-Date: 2022-11-09
+Version: 1.3.0.
+Date: 2023-05-20
   Features:
-    - Initial release.
+    - Settings to disable Burner and/or Electric Mining Drills, Mining Productivity tech research.
+  Changes:
+  Bugfixes:
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 2023-05-15
+  Features:
+  Changes:
+    - Texts fixes.
+  Bugfixes:
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.0
 Date: 2023-05-13
   Features:
     - Added steel plates & blue chips (aka Processing Unit) as optional ingredients.
+  Changes:
+  Bugfixes:
 ---------------------------------------------------------------------------------------------------
-Version: 1.2.1
-Date: 2023-05-15
+Version: 1.1.0
+Date: 2022-11-09
   Features:
-    - Texts fixes.
+    - Initial release.
+  Changes:
+  Bugfixes:
