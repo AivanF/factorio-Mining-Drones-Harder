@@ -4,6 +4,7 @@ Date: 2023-05-20
   Features:
     - Settings to disable Burner and/or Electric Mining Drills, Mining Productivity tech research.
   Changes:
+    - Small rebranding :D
   Bugfixes:
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.1
